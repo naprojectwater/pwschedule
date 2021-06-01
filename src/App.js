@@ -9,7 +9,7 @@ import Dropdown from 'react-bootstrap/Dropdown'
 // 0 = NASH, 1 = NAI
 const school_options = [
     {
-       label: "Choose Team",
+       label: "Choose School",
        value: -1
     },
     {

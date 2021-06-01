@@ -24,6 +24,8 @@ export default class PWSchedule extends React.Component {
     // generate team list of school
     createTeamsList() {
         let team_list = [];
+        // push default team
+        team_list.push("Choose Team");
         // nash
         if (this.props.childSchool == 0) {
             for (let team_data of nashData) {
